@@ -1,68 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# hello-rails-back-end
-
-> Implement a connection between a Ruby on Rails back-end and React front-end.
-
-[Link to React front end](https://github.com/ElsonOtake/hello-react-front-end)
+# Hello-rails-backend
+This is an endpoint API 
 
 
 ## Built With
 
-- Ruby on Rails
-- Postgresql
+- Ruby On Rails (RoR)
+- PostegreSQL
 
-
-## Live Demo (if available)
 
 
 ## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-To get a local copy, follow these simple steps.
 
 ### Prerequisites
-
-Web browser installed
+Ruby 3.1.2 or newer
+Rails 7.0.4 or newer
+Git
+NPM
+PostgreSQL
+Modern web browser
 
 ### Setup
+  $ git clone https://github.com/Brenda309/hello-rails-backend.git
+  $ cd recipe_app/
+### Install
 
-Cloning a repository
+     bundle install
+     gem install rspec
+### Usage
 
-- On GitHub.com, navigate to the main page of the repository;
+### Run project
+    Execute command
 
-- Above the list of files, click "Code" button;
+    $ rails server
 
-- Copy the URL to clone the repository. 
+Then browse http://localhost:3000
 
-  - To clone the repository using HTTPS : `https://github.com/ElsonOtake/hello-rails-back-end.git`
+## Authors
 
-  - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority : `git@github.com:ElsonOtake/hello-rails-back-end.git`
+👤 **Brenda Wihogora**
 
-  - To clone a repository using GitHub CLI : `gh repo clone ElsonOtake/hello-rails-back-end`
-
-- Open Terminal;
-
-- Change the current working directory to the location where you want the cloned directory;
-
-- Type `git clone`, and then paste the URL you copied earlier;
-
-- Change the current working directory to the location of your cloned directory;
-
-- Run `bundle install`;
-
-- Run `rails db:create db:migrate db:seed`
-
-- Run `rails server`;
-
-
-## Author
-
-👤 **Elson Otake**
-
-- GitHub: [@elsonotake](https://github.com/elsonotake)
-- Twitter: [@elsonotake](https://twitter.com/elsonotake)
-- LinkedIn: [elsonotake](https://linkedin.com/in/elsonotake)
-
+- GitHub: [@Brenda309](https://github.com/Brenda309)
+- Twitter: [@BrendaWihogora](https://twitter.com/BrendaWihogora)
+- LinkedIn: [BrendaWihogora](https://linkedin.com/in/BrendaWihogora/)
 
 ## 🤝 Contributing
 
@@ -70,19 +53,17 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-
 ## Acknowledgments
 
-- Microverse
-- W3Schools
-- Stack Overflow
-
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
+This project is [MIT](./LICENSE.md) licensed.
 
-This project is [MIT](./MIT.md) licensed.
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
